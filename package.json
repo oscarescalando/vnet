@@ -1,0 +1,25 @@
+{
+  "name": "vnet",
+  "version": "1.0.0",
+  "description": "Pagina web de Viginet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarescalando/vnet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarescalando/vnet/issues"
+  },
+  "homepage": "https://github.com/oscarescalando/vnet#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.0"
+  }
+}
