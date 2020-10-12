@@ -4,7 +4,8 @@
   "description": "Pagina web de Viginet",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/tailwind.css -o public/assets/css/styles.css",
+    "dev": "postcss css/tailwind.css -o public/css/styles.css --watch"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/oscarescalando/vnet#readme",
   "dependencies": {
     "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.1",
     "postcss-cli": "^8.1.0",
     "tailwindcss": "^1.9.0"
   }
